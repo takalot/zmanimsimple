@@ -284,7 +284,7 @@
                             {/* DROITE: Horloge + Jour + Parasha + Fêtes */}
                             <div className="flex items-center gap-6">
                                 <div className="text-yellow-400 digital-font font-black text-7xl leading-none">
-                                    {curTime.slice(0, 5)}
+                                    {curTime}
                                 </div>
                                 
                                 <div className="separator"></div>
@@ -369,7 +369,7 @@
                                 )}
                                 <div className="text-yellow-400/20 text-[10px] md:text-sm font-bold tracking-[1em] mb-4 uppercase">Horloge Actuelle</div>
                                 <h1 className="text-[10rem] md:text-[20rem] leading-none font-black digital-font text-white glow-text tracking-tighter">
-                                    {curTime}
+                                    {curTime.slice(0, 5)}
                                 </h1>
                             </div>
                         )}
